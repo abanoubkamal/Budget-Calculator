@@ -162,7 +162,7 @@ body {
   font-size: 35px;
   background: none;
   border: none;
-  color: #28b9b5;
+  color: #2980b9;
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
@@ -178,7 +178,7 @@ body {
 .add__description:focus,
 .add__value:focus {
   outline: none;
-  border: 1px solid #28b9b5;
+  border: 1px solid #2980b9;
 }
 
 .add__btn:focus {
@@ -209,11 +209,13 @@ h2 {
   margin-bottom: 15px;
 }
 
+ 
+
 .icome__title {
-  color: #28b9b5;
+  color: #2980b9;
 }
 .expenses__title {
-  color: #ff5049;
+  color: #c0392b;
 }
 
 .item {
@@ -251,13 +253,14 @@ h2 {
 
 .income .item__value,
 .income .item__delete--btn {
-  color: #28b9b5;
+  color: #2980b9;
 }
+
 
 .expenses .item__value,
 .expenses .item__percentage,
 .expenses .item__delete--btn {
-  color: #ff5049;
+  color: #c0392b;
 }
 
 .item__delete {
@@ -295,7 +298,7 @@ h2 {
 .unpaid {
   background-color: #ffdad9 !important;
   cursor: pointer;
-  color: #ff5049;
+  color: #c0392b;
 }
 
 .unpaid .item__percentage {
